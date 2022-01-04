@@ -12,5 +12,9 @@ public class Main {
     public static String createFullName(String firstName, String lastName){
         return firstName+" "+lastName;
     }
-
+public class NameGenerator{
+        public static String generateFullName(String firstName, String lastName){
+            return firstName+lastName+"13";
+        }
+}
 }
