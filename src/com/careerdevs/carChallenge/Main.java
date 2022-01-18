@@ -6,9 +6,9 @@ public class Main {
         Car CarTwo= new Car("Ford", "Mustang GT", 30_000, .9f);
         Car CarThree= new Car("Dodge", "Charger", 100, .9f);
 
-        System.out.println(carOne.make+" "+CarOne.model);
-        System.out.println(carTwo.make+" "+CarTwo.model);
-        System.out.println(carThree.make+" "+CarThree.model);
+        System.out.println(carOne.make+" "+ carOne.model);
+        System.out.println(carTwo.make+" "+ carTwo.model);
+        System.out.println(carThree.make+" "+carThree.model);
 
         //this is bonus solution***
 //        Car[] myCarArr= new Car[3];

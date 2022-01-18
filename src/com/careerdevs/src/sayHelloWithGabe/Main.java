@@ -1,4 +1,4 @@
-package SayHello;
+package sayHelloWithGabe;
 
 import java.util.Scanner;
 
@@ -7,10 +7,9 @@ public class Main {
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-
-        whatIsYourName();
-//        yourFullNameSon()
-
+//        whatIsYourName();
+//        yourFullNameSon();
+        //userSignUp();
     }
     public static void whatIsYourName(){
         Scanner scanner= new Scanner(System.in);
@@ -33,5 +32,20 @@ public class Main {
 
 
     }
+
+    public static void userSignUp(){
+        String userName= getUserInput("Enter a username");
+        String password= getUserInput("Enter a password");
+    }
+    public static String getUserInput (String question){
+        System.out.println(question+"\nInput: ");
+        return scanner.nextLine();
+
+    }
+
+//    public static int sum(int num1, int num2){
+//        return num1+num2
+//    }
+
 
 }
