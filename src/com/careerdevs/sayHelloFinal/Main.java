@@ -1,4 +1,4 @@
-package com.careerdevs.sayhello;
+package com.careerdevs.sayHelloFinal;
 
 import java.util.Scanner;
 
