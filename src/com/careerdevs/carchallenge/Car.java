@@ -9,7 +9,7 @@ public class Car {
         this.speed = speed;
     }
 
-}
+
 
     public void showSpeed() {
         System.out.println(company + "car's speed is " + speed + "Km/hr");
