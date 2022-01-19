@@ -1,4 +1,4 @@
-package com.careerdevs;
+package com.careerdevs.sayhellofinal;
 
 public class People {
     public static String[] firstNames= {"John", "Peter","James","Cassius","Akira","George","Xander"};

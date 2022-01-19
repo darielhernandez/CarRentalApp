@@ -1,9 +1,13 @@
 package com.careerdevs;
 
+import com.careerdevs.sayhellofinal.People;
+import com.careerdevs.sayhellofinal.Person;
+
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
-//challenge 1
+//challenge 1(printName)
     public static void main(String[] args) {
 //        String firstName= "Dariel";
 //        String lastName= "Hernandez";
@@ -34,17 +38,24 @@ public class Main {
         }
 
 
-    //challenge 2
-    public static String createFullName(String firstName, String lastName){
-        return firstName +" "+ lastName;
+    //challenge 2(fullName)
+    public static void whatIsYourFullName(){
+        Scanner scanner= new Scanner(System.in);
+
+        System.out.println("What is your first name? ");
+        String firstName= scanner.nextLine();
+        System.out.println("What is your last name? ");
+        String lastName= scanner.nextLine();
+
+        System.out.println("It is nice to formally meet you, " + firstName +" "+ lastName +"");
+
+//whatIsYourFullName(); //call the function
     }
 
+    //challenge 3(carChallenge)
 
 
 
-
-
-        //
 
     }
 

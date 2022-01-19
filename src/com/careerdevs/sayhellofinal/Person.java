@@ -1,4 +1,4 @@
-package com.careerdevs;
+package com.careerdevs.sayhellofinal;
 
 public class Person {
     public String firstName;

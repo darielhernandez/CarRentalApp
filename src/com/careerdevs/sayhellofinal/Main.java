@@ -1,4 +1,4 @@
-package com.careerdevs.sayHelloFinal;
+package com.careerdevs.sayhellofinal;
 
 import java.util.Scanner;
 
@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
 //        whatIsYourName();
       //  whatIsYourFullName();
+        yaFullNameSon();
     }
 
     public static void whatIsYourName(){
@@ -16,6 +17,17 @@ public class Main {
 
         System.out.println("Hello, nice to meet you " + userInput);
 
+    }
+
+    public static void yaFullNameSon(){
+        Scanner scanner= new Scanner(System.in);
+
+        System.out.println("Whats ya name? ");
+        String userInput= scanner.nextLine();
+        System.out.println("I need ya full name, son!");
+        String fullName= scanner.nextLine();
+
+        System.out.println("Pleasure to meet ya " + fullName);
     }
 
     public static void whatIsYourFullName(){
