@@ -10,7 +10,6 @@ public class Main {
     }
 
     public static void createAPlane(){
-
         //0th create a Scanner instance
         Scanner scan = new Scanner(System.in);
 
