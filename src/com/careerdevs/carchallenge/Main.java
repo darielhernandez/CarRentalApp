@@ -30,6 +30,8 @@ public class Main {
 
         //3. print
         System.out.println("The "+ make +" "+ model + " has " + mileage + " miles on the odometer and " + gasTank + " tank of gas.");
+
     }
+
 }
 
