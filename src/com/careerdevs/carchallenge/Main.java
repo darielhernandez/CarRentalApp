@@ -29,7 +29,7 @@ public class Main {
         Car car= new Car(make, model, mileage, gasTank);
 
         //3. print
-        System.out.println("The "+ make +" "+ model + " has " + mileage + " miles on the odometer and " + gasTank + " tank of gas.");
+        System.out.println("The "+ make +" "+ model + " has " + mileage + " miles on the odometer and " + gasTank + " tank of gas. ");
 
     }
 
