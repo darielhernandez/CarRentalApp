@@ -7,29 +7,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-//        makeACar();
+        System.out.println("nimbus");
         carObject();
-    }
-    public static void makeACar(){
-        //0. create a scanner
-        Scanner scanner= new Scanner(System.in);
-
-        //1st user input
-        System.out.println("What is your name?\nName");
-        String owner= scanner.nextLine();
-
-        System.out.println("Enter car make: ");
-        String make= scanner.nextLine();
-
-        System.out.println("Enter car model: ");
-        String model= scanner.nextLine();
-
-        //2. car instance
-        Car car= new Car(owner, make, model);
-
-        //3. print
-        System.out.println(owner + " owns a " + make +" "+ model);
-//        System.out.println("nimbus");
     }
     public static void carObject(){
         //0. scanner
