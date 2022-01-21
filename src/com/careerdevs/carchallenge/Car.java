@@ -16,6 +16,17 @@ public class Car {
 
     }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", owner='" + owner + '\'' +
+                ", mileage=" + mileage +
+                ", gasTank=" + gasTank +
+                '}';
+    }
+
     public Car(String owner, String make, String model) {
     }
 

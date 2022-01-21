@@ -1,10 +1,12 @@
 package com.careerdevs.animalfactory;
 
 public class Animal {
+    //fields
     public String species;
     public short legs;
     public boolean livesOnLand;
 
+    //constructor
     public Animal(String species, short legs, boolean livesOnLand){
         this.species= species;
         this.legs= legs;
