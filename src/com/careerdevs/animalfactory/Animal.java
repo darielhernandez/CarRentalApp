@@ -3,8 +3,8 @@ package com.careerdevs.animalfactory;
 public class Animal {
     //fields
     public String species;
-    public short legs;
-    public boolean livesOnLand;
+    public Short legs;
+    public Boolean livesOnLand;
 
     //constructor
     public Animal(String species, short legs, boolean livesOnLand){
