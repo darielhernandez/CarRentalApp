@@ -30,11 +30,16 @@ public class RentalService {
         int listNumber= 1;
 
         for(int i= 0; i< carStorage.length; i++){
-            if (!carStorage[i].isRented())
-            System.out.println(listNumber+". "+ carStorage[i].getName());
-            listNumber++;
+            String carStatus;
+            if (!carStorage[i].isRented()){
+                carStatus= "Available";
+//            System.out.println(listNumber+". "+ carStorage[i].getName());
+//            listNumber++;
+        }else{
+            carStatus= "Unavailable";
         }
-
+        System.out.println((i+1)+". "+ carStorage[i].getName()+" "+carStatus);
+    }
     }
     public static void carRental(){
         //0 scanner
@@ -63,3 +68,4 @@ public class RentalService {
 
     }
 }
+

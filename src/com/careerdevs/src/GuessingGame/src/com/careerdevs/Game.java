@@ -12,8 +12,7 @@ public class Game {
                 System.out.println(question);
                 System.out.println("Number (" + min + " - " + max + "): ");
                 int userInt= scanner.nextInt();// checking for type: exception risk
-
-                if (userInt >= min||userInt<= max){//checking for valid range
+                if (userInt >= min && userInt<= max){//checking for valid range
                     return userInt;
                 }
                 //these lines below will not run if a valid input is given
